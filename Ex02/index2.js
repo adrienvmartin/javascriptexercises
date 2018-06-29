@@ -8,4 +8,4 @@ firstName = 'Adrien';
 lastName = 'Martin';
 age = 28;
 dateOfBirth = '02/15/1990';
-address = "RR 8 Site 812 Comp 4, Saskatoon, Sk";
+address = "123 Main Street, Saskatoon, Sk";
