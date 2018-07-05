@@ -1,10 +1,13 @@
 function even(number) {
-    if (number % 2 == 0)
-    {
-        return true;
-    }
+    return number % 2 == 0;
+}
 
-    else {
-        return false;
-    }
+let num = 12;
+
+if (even(num) == true) {
+    console.log(`The number ${num} is even`);
+}
+
+else {
+    console.log(`The number ${num} is odd`);
 }
