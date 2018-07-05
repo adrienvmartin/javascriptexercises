@@ -18,7 +18,7 @@ sumOutput(1,10);
 /* Dan's version
 
 function countUp() {
-    inputNum = ;
+    inputNum = 0;
 }
 
 while (inputNum <= 10) {
