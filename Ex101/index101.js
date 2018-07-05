@@ -1,11 +1,11 @@
-let name = "Santa Claus";
-let age = 150;
-let phone = "555-1234";
-let street = "101 Frozen Lane, North Pole";
-let postal = "H0H 0H0";
-let married = true;
+let name = null;
+let age = null;
+let phone = null;
+let street = null;
+let postal = null;
+let married = null;
 
-function showUser() {
+function showUser(name, age, phone, street, postal, married) {
     console.log(`Name: ${name}`);
     console.log(`Age: ${age}`);
     console.log(`Phone Number: ${phone}`);
@@ -14,4 +14,4 @@ function showUser() {
     console.log(`Married: ${married}`);
 }
 
-showUser();
+showUser("Santa Claus", 150, "555-1234", "101 North Pole Lane", "H0H 0H0", true);
