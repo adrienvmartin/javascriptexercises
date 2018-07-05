@@ -5,7 +5,7 @@ function sumOutput(firstNumber, lastNumber) {
 
     counter = firstNumber;
 
-    while (counter < lastNumber) {
+    while (counter < lastNumber + 1) {
         result += counter;
         counter++;
     }
@@ -13,7 +13,7 @@ function sumOutput(firstNumber, lastNumber) {
     console.log(result);
 }
 
-sumOutput(1,11);
+sumOutput(1,10);
 
 /* Dan's version
 
