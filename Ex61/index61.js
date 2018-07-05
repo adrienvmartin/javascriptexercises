@@ -1,4 +1,4 @@
-let weekdayNumber = 7;
+let weekdayNumber = 8;
 let dayOfWeek;
 
 switch (weekdayNumber) {
@@ -31,7 +31,7 @@ switch (weekdayNumber) {
     break;
 
     default:
-    message = "Please enter a number between 1 and 7";
+    console.log("Please enter a number between 1 and 7");
 }
 
 let message = `Today it's ${dayOfWeek}`;
