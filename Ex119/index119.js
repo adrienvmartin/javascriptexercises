@@ -1,5 +1,13 @@
-const data = [42, true, function stringReturn() {return 'The meaning of life is: '}];
+const data = [
+    42, 
+    true, 
+    function() { console.log('The meaning of life is: ') }
+];
+
+const message = data[2];
+const number = data[0];
 
 if (data[1] == true) {
-    console.log(data[2] + data[0]);
+    console.log(message);
+    console.log(number);
 }
