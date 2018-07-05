@@ -1,4 +1,4 @@
-let weekdayNumber = 2;
+let weekdayNumber = 7;
 let dayOfWeek;
 
 switch (weekdayNumber) {
