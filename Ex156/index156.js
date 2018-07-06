@@ -61,11 +61,10 @@ let games = [
     },
 ]
 
-function showGame(games) {
-    console.log(`Name: ${games.name}`);
-    console.log(`Price: ${games.price}`);
-    console.log(`Sold: ${games.sold}`);
-    console.log(`Console: ${games.console}`);
-}
 
-games[3].showDetail();
+function showGames() {
+    for (let i = 0; i < games.length; i++) {
+      games[i].showDetail();
+}
+}
+showGames();

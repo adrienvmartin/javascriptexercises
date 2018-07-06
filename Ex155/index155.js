@@ -31,11 +31,14 @@ let games = [
     },
 ]
 
-function showGame(games) {
-    console.log(`Name: ${games.name}`);
-    console.log(`Price: ${games.price}`);
-    console.log(`Sold: ${games.sold}`);
-    console.log(`Console: ${games.console}`);
+function showGames() {
+    for (let i = 0; i < games.length; i++) {
+        console.log(`Name: ${games[i].name}`);
+        console.log(`Price: ${games[i].price}`);
+        console.log(`Sold: ${games[i].sold}`);
+        console.log(`Console: ${games[i].console}`);
+        console.log("\n");
+    }
 }
 
-showGame(games[2]);
+showGame();
