@@ -6,4 +6,4 @@ function add() {
         console.log(counter);
 }
 
-add(4,2);
+add(4,2,5,8,12);
