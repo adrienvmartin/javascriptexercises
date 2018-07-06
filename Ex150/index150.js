@@ -1,10 +1,8 @@
-function answer() {
-    return 42;
-}
-
 let deepThought = {
     name: "Deep Thought",
-    answerToTheUltimateQuestionOfLife: answer(),
+    answerToTheUltimateQuestionOfLife: function () {
+        console.log(42);
+    }
 };
 
-console.log(deepThought.answerToTheUltimateQuestionOfLife);
+deepThought.answerToTheUltimateQuestionOfLife();
