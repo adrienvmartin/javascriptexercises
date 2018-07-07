@@ -20,4 +20,4 @@ function printNumbers() {
 
 printNumbers();
 
-// Note to self: using countes with index is sketchy
+// Note to self: using counters with index is sketchy
