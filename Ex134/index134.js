@@ -9,7 +9,8 @@ function numbersResult() {
     }
     
     if (result == 500500) {
-        console.log(`The result ${result} is correct!`);
+        console.log(numbers + "\n");
+        console.log(result + "\n" + `The result ${result} is correct!`);
     }
 
     else {
