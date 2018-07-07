@@ -25,5 +25,5 @@ mutants.forEach(function(mutant) {
     }
 });
 
-newMutants.join();
+// newMutants.join();
 console.log(newMutants.toString());
