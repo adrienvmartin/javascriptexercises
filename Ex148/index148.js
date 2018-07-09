@@ -1,4 +1,4 @@
-let superhero = {
+const superhero = {
     name: "Batman",
     secretName: "Bruce",
     sidekick: ["Robin", "Alfred", "Gordon"],

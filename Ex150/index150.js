@@ -1,4 +1,4 @@
-let deepThought = {
+const deepThought = {
     name: "Deep Thought",
     answerToTheUltimateQuestionOfLife: function () {
         console.log(42);
