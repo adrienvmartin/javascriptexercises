@@ -1,4 +1,4 @@
-let user = {
+const user = {
     name: "Bob",
     age: 22,
     class: "ComIT"
