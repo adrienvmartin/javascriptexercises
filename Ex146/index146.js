@@ -1,10 +1,10 @@
 const user = {
     username: 'batman',
-    password: 'Alfred1960ROCKS!'
+    password: 'ALFRED1960ROCKS!',
 };
 
-function shouldOpenBatCave(username, password) {
-    if (username == 'batman' && password == 'Alfred1960KPO!') {
+function shouldBatCaveOpen(username, password) {
+    if (username == 'batman' && password == 'ALFRED1960ROCKS!') {
         return true;
     }
     else {
@@ -12,10 +12,9 @@ function shouldOpenBatCave(username, password) {
     }
 }
 
-if (shouldOpenBatCave == true) {
+if (shouldBatCaveOpen(user.username, user.password) == true) {
     console.log("Welcome back, Batman!");
 }
-
 else {
-    console.log("Sorry, you can't enter the Batcave, try again");
+    console.log("Sorry, you can't access the Batcave, try again");
 }
