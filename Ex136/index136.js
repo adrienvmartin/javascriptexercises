@@ -13,6 +13,14 @@ let mutants = [
 let newMutants = [];
 
 mutants.forEach(function(mutant) {
+    if (mutant == "Iceman" || mutant == "Logan" || mutant == "Phoenix") {
+        newMutants.push(mutant);
+    }
+});
+
+/* Old version 
+
+mutants.forEach(function(mutant) {
     if (mutant == "Iceman") {
         newMutants.push(mutant);
     }
@@ -23,7 +31,7 @@ mutants.forEach(function(mutant) {
     else if (mutant == "Phoenix") {
         newMutants.push(mutant);
     }
-});
+}); */
 
 // newMutants.join();
 console.log(newMutants.toString());
