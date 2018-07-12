@@ -8,7 +8,7 @@ function longestWord(string) {
       }
     function wordCounter() {
         for (let i = 0; i < characters.length; i++) {
-            if (validate == true) {
+            if (validate(string) == true) {
                 newString[counter].push(characters[i]);
             }
             else {
@@ -17,7 +17,6 @@ function longestWord(string) {
             }
         }
     }
-    console.log(letters);
 
 }
 
